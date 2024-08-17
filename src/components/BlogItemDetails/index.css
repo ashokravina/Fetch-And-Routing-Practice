@@ -1,0 +1,98 @@
+/* Write your CSS code here */
+.details-container {
+  background-color: #ffffff;
+  min-height: 60vh;
+  width:800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+
+.author-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 500px;
+  
+}
+.logo {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+}
+.author-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #8e8e8e;
+}
+.img1 {
+  width: 80%;
+  border-radius: 8px;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #8e8e8e;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media(max-width:576px) {
+  .paragraph {
+    font-size: 15px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .img1 {
+    width:250px;
+    height:150px;
+  }
+  .author-name {
+    font-size:12px;
+  }
+  .author-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:340px;
+   
+  }
+  .details-container {
+    width:240px;
+    margin: 8px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
+  
+
+}
+@media(max-width:768px) and (min-width:600px) {
+  .details-container {
+    width: 600px;
+  }
+  .author-container {
+    padding-left: 420px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .paragraph {
+    font-size: 14px;
+    padding-left: 45px;
+    padding-right:45px;
+  }
+  
+}

@@ -1,0 +1,78 @@
+/* Write your CSS code here */
+.list-type {
+  list-style-type: none;
+}
+.item-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: #d3d3d3 0px 5px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+  width: 500px;
+  height: 250px;
+  padding: 10px;
+}
+.img {
+  width: 300px;
+  height: 200px;
+  border-radius: 6px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #8e8e8e;
+}
+.link {
+  font-family: 'Roboto';
+  font-size: 24pxpx;
+  color: #000000;
+  font-weight: bold;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}
+.author-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #8e8e8e;
+}
+.author-card {
+  display: flex;
+  flex-direction: row;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+.blogitem-link {
+  text-decoration: none;
+}
+@media (max-width: 576px) {
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 240px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 60px;
+  }
+  .img {
+    width: 200px;
+    height: 250px;
+  }
+  .logo {
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+  }
+}
